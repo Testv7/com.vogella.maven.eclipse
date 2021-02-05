@@ -18,7 +18,7 @@ public class SearchSteps {
 
 	@When("I search for a product with name {string} and price {int}")
 	public void i_search_for_a_product_with_name_and_price(String productName, Integer price) {
-		System.out.println("Step 2 :Price is "  + price + " And Product Name is " + productName);
+		System.out.println("Step 2 :Price of Product "  + price + " And Product Name is " + productName);
 		product = new Product(productName, price);
 	}
 
@@ -27,7 +27,7 @@ public class SearchSteps {
 		
 		search = new Search();
 		String name = search.displayProduct(product);
-		System.out.println("Step 3 : Searched Product displayed is "  + name);
+		System.out.println("Step 3 : Searched Product on Amazon Screen displayed is "  + name);
 		Assert.assertEquals(product.getProductName(), name);
 		}
 
