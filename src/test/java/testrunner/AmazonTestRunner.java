@@ -9,6 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = "C:\\Users\\vijitha\\eclipse-workspace\\com.vogella.maven.eclipse\\src\\test\\java\\AppFeatures\\SearchDemo.feature",
 		glue = {"stepdefinitions"}
+		
 			
 )
 public class AmazonTestRunner {
