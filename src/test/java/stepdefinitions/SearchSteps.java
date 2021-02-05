@@ -29,6 +29,7 @@ public class SearchSteps {
 		String name = search.displayProduct(product);
 		System.out.println("Step 3 : Searched Product on Amazon Screen displayed is "  + name);
 		Assert.assertEquals(product.getProductName(), name);
+		System.out.println("Webhook new");
 		}
 
 }
