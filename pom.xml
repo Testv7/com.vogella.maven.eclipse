@@ -23,6 +23,15 @@
   <dependencies>
   
   <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-spring</artifactId>
+        <version>4.2.0</version>
+        <scope>test</scope>
+    </dependency>
+
+ 
+  
+  <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
             <version>${cucumber.version}</version>
@@ -42,6 +51,13 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+        
+              <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-picocontainer</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+        
   
    </dependencies>
    
